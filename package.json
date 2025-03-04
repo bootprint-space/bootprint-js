@@ -1,5 +1,5 @@
 {
-    "name": "bootprint",
+    "name": "bootprint-js",
     "version": "1.0.0",
     "description": "Explore the universe with facts and images using the Bootprint API.",
     "main": "index.js",
