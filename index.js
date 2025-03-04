@@ -48,7 +48,7 @@ const celestialObjects = [
       }
   
       try {
-        const spaceResponse = await fetch(`https://api.bootprint.com/all/${type}`).then(res => res.json());
+        const spaceResponse = await fetch(`https://api.bootprint.space/all/${type}`).then(res => res.json());
         const { object, image, fact, image_id, fact_id } = spaceResponse;
   
         return { type, object, image, fact, image_id, fact_id };
