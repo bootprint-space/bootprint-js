@@ -4,7 +4,7 @@ Explore the universe through images and facts of space.
 # Installation
 You can install Bootprint using the following command:
 ```bash
-npm i bootprint@latest
+npm i bootprint-js@latest
 ```
 
 # Usage
