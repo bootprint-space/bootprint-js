@@ -5,22 +5,23 @@
     "main": "index.js",
     "devDependencies": {},
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-      "type": "git",
-      "url": "https://github.com/bootprint-space/bootprint-js"
+        "type": "git",
+        "url": "git+https://github.com/bootprint-space/bootprint-js.git"
     },
     "keywords": [
-      "space",
-      "api",
-      "bootprint",
-      "bootprint-api"
+        "space",
+        "api",
+        "bootprint",
+        "bootprint-api"
     ],
     "author": "Ben Forster",
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/bootprint-space/bootprint-js/issues"
+        "url": "https://github.com/bootprint-space/bootprint-js/issues"
     },
-    "homepage": "https://bootprint.space/"
-  }
+    "homepage": "https://bootprint.space/",
+    "types": "./index.d.ts"
+}
