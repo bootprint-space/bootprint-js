@@ -1,5 +1,5 @@
 # Bootprint (Node.js)
-Explore the universe through images and facts of space.
+Explore the universe with images and facts of the cosmos.
 
 # Installation
 You can install Bootprint using the following command:
