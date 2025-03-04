@@ -1,4 +1,4 @@
-# Bootprint
+# Bootprint (Node.js)
 Explore the universe through images and facts of space.
 
 # Installation
