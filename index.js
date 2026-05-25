@@ -34,13 +34,13 @@ module.exports = {
         }
 
         type = type === 'random' 
-            ? celestialObjects[Math.floor(Math.random() * celestialObjects.length)] 
+            ? objects[Math.floor(Math.random() * objects.length)] 
             : !isArray 
                 ? type.toLowerCase() 
                 : [...new Set(type.map(t => t.toLowerCase()))];
         
-        if (!isArray && !celestialObjects.includes(type)) {
-            throw new TypeError(`'${type}' is not a valid type, the valid types are: ${celestialObjects.join(', ')}, random`);
+        if (!isArray && !objects.includes(type)) {
+            throw new TypeError(`'${type}' is not a valid type, the valid types are: ${objects.join(', ')}, random`);
         }
      
         if (isArray) {
